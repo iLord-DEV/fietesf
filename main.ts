@@ -7,17 +7,21 @@ basic.forever(function () {
     MotionKit.driveForwards(60)
     MotionKit.turnLeft(90)
     MotionKit.driveForwards(77)
-    images.iconImage(IconNames.Butterfly).showImage(10)
+    MotionKit.stop()
+    MotionKit.driveBackwards(20)
     MotionKit.driveForwards(30)
     MotionKit.driveBackwards(30)
     MotionKit.driveBackwards(30)
     MotionKit.driveForwards(50)
     MotionKit.driveBackwards(60)
-    images.createImage(`
-        . # # # .
-        . # . . .
-        . # # # .
-        . # . . .
-        . # . . .
-        `).showImage(0)
+    basic.showString("stopp")
+    MotionKit.stop()
+    basic.setLedColor(0xff0000)
+    basic.pause(1000)
+    basic.setLedColor(0xffff00)
+    basic.pause(1000)
+    basic.setLedColor(0x00ff00)
+    basic.showString("du darfst weita faren")
+    MotionKit.driveForwards(88)
+    MotionKit.driveBackwards(44)
 })

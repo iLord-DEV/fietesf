@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "TouchKit": "github:tinysuperlab/touchkit#63db8163ac919110724531f71499a212aba0394c",
-        "MotionKit": "github:tinysuperlab/motionkit#9296b0c054be8f694368e7d52e7a9f2397ceb7b9"
+        "MotionKit": "github:tinysuperlab/motionkit#9296b0c054be8f694368e7d52e7a9f2397ceb7b9",
+        "servo": "*"
     },
     "files": [
         "main.blocks",
